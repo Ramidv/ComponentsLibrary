@@ -1,3 +1,4 @@
-import Button from './src/components/Button/index.js';
-
-export default Button;
+export default {
+    name: 'Rami',
+    email: 'ramiamaire@gmail.com'
+};
