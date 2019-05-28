@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Button() {
-    return (
-        <button>Hello World!</button>
-    );
+export default class Button extends React.Component {
+    constructor() { }
+    render() {
+        return (
+            <button>Hello</button>
+        );
+    }
 }
 
 export default Button;
